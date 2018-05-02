@@ -1,5 +1,8 @@
-# Adminlets
+# CompleteFTP Adminlets
 A collection of tiny, simple web-apps that perform simple CompleteFTP administration tasks.  These web-apps may be used as is or customized as required.
+
+# Why?
+Adminlets allow administrators to delegate isolated administration tasks to colleagues without giving them access to the whole CompleteFTP configuration.
 
 The following adminlets are available:
 * *AddUser1*: Prompts the user for a user-name and a password (twice) and creates a non-Windows user accordingly.  The user's home folder will be `/Home/%UserName%`, which will map to `C:\ProgramData\Enterprise Distributed Technologies\Complete FTP\Users\%UserName%`
